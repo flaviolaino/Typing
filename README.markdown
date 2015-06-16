@@ -43,7 +43,8 @@ Meta
 ----
 
 Typing is written by [Flavio Laino][].
-Original jQuery-typing is written by [Maciej Konieczny][].
+Original [jQuery-typing][] is written by [Maciej Konieczny][].
 
+  [jQuery-typing]: https://github.com/narfdotpl/jquery-typing
   [Maciej Konieczny]: http://narf.pl/
   [Flavio Laino]: http://flaviolaino.it/
