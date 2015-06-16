@@ -1,13 +1,13 @@
-jQuery-typing
+~~jQuery-~~typing
 =============
 
-Assign callbacks for started/stopped typing events.
+Assign callbacks for started/stopped typing events. Without jQuery!
 
 
 Usage
 -----
 
-    $(':text').typing({
+    Typing('my_div_id', {
         start: function (event, $elem) {
             $elem.css('background', '#fa0');
         },
@@ -17,7 +17,7 @@ Usage
         delay: 400
     });
 
-`typing` command takes key-value object with `start`, `stop` and
+`Typing` is function with just one plain-object argument with `start`, `stop` and
 `delay` keys. They are all optional, so you can either pass only
 `start` callback, `stop` callback, `stop` callback and `delay` time,
 or everything.
@@ -28,7 +28,7 @@ defaults to 400. Regardless of `delay`'s value, the `stop` callback is
 called immediately when blur event occurs.
 
 Callbacks are passed two arguments: event that caused callback execution
-and jQuery object for matched element. Possible events are `keypress`
+and HTML Element object for matched element. Possible events are `keypress`
 or `keydown` for `start` callbacks and `keyup` or `blur` for `stop`
 callbacks.
 
@@ -36,27 +36,14 @@ callbacks.
 Demo
 ----
 
-Visit <http://narf.pl/jquery-typing/>
-
-
-Download
---------
-
-Get production version from
-<http://narf.pl/jquery-typing/jquery.typing-0.2.0.min.js>
-
-For development version visit [GitHub][].
-
-  [GitHub]: http://github.com/narfdotpl/jquery-typing
+*soon*
 
 
 Meta
 ----
 
-jQuery-typing is written by [Maciej Konieczny][] and uses
-[semantic versioning][] for release numbering.  Everything in `plugin/`
-directory is released into the [public domain][].
+Typing is written by [Flavio Laino][].
+Original jQuery-typing is written by [Maciej Konieczny][].
 
   [Maciej Konieczny]: http://narf.pl/
-  [semantic versioning]: http://semver.org/
-  [public domain]: http://unlicense.org/
+  [Flavio Laino]: http://flaviolaino.it/
