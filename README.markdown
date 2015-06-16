@@ -17,7 +17,7 @@ Usage
         delay: 400
     });
 
-`Typing` is function with just one plain-object argument with `start`, `stop` and
+`Typing` is function with two arguments: first is the element target or its id, second argument is plain-object with `start`, `stop` and
 `delay` keys. They are all optional, so you can either pass only
 `start` callback, `stop` callback, `stop` callback and `delay` time,
 or everything.
