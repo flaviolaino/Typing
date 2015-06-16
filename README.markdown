@@ -1,4 +1,4 @@
-~~jQuery-~~typing
+~~jQuery-~~Typing
 =============
 
 Assign callbacks for started/stopped typing events. Without jQuery!
